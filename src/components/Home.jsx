@@ -1,10 +1,14 @@
 import React from 'react'
+import AddLink from './AddLink';
 import Navbar from './Navbar'
+import SideBar from './SideBar';
 
 const Home = () => {
     return (
-      <main class = 'mr-20'>
+      <main className= "relative h-screen ">
         <Navbar />
+        <SideBar />
+        <AddLink />
       </main>
     );
 }

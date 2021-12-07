@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AddContent = () => {
+const AddLink = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const AddContent = () => {
     )
 }
 
-export default AddContent
+export default AddLink

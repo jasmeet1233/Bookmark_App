@@ -20,13 +20,13 @@ const buttonEffect =
 
 function Navbar() {
   return (
-    <nav class="flex items-center ml-20 h-14  justify-between ">
-      <h1 class="font-semibold uppercase text-lg text-gray-900">LOGO</h1>
-      <div class="h-full">
-        <ul class="flex items-center h-full justify-between w-72">
-          <li class={`${buttonEffect}`}>Link</li>
-          <li class={`${buttonEffect}`}>Images</li>
-          <li class={`${buttonEffect}`}>Text</li>
+    <nav className="flex items-center pl-20 pr-20 h-14 bg-white justify-between ">
+      <h1 className="font-semibold uppercase text-lg text-gray-900">LOGO</h1>
+      <div className="h-full">
+        <ul className="flex items-center h-full justify-between w-72">
+          <li className={`${buttonEffect}`}>Link</li>
+          <li className={`${buttonEffect}`}>Images</li>
+          <li className={`${buttonEffect}`}>Text</li>
         </ul>
       </div>
 
