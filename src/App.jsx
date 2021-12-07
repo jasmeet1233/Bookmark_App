@@ -6,15 +6,7 @@ import About from './pages/About';
 
 function App() {
   return (
-    <BrowserRouter>
-    <div className="pt-20">
-      <Navbar />
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/about" component={About} exact />
-      </Switch>
-    </div>
-    </BrowserRouter>
+    <Navbar />
   )
 }
 
