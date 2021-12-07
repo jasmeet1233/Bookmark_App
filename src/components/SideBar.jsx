@@ -4,13 +4,14 @@ const SideBar = () => {
   const sidebar = ["All Projects", "Root", "Favorites"];
   const sidebar2 = ['Folders', "Tags"]
 
+  //relative tha
   return (
-    <div className="relative h-full">
-      <aside className="absolute inset-y-0 bg-white w-56">
+    <div className=" h-full ">  
+      <aside className="h-full bg-white w-56">
         <div className="flex  flex-col pt-6 h-50">
-          {sidebar.map((item) => {
+          {sidebar.map((item, i) => {
             return (
-              <button className="p-3 rounded-lg hover:bg-purple-600 hover:text-white">
+              <button key ={i} className="p-3 rounded-lg hover:bg-purple-600 hover:text-white">
                 {item}
               </button>
             );

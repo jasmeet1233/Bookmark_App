@@ -5,10 +5,12 @@ import SideBar from './SideBar';
 
 const Home = () => {
     return (
-      <main className= "relative h-screen ">
+      <main className="relative h-screen">
         <Navbar />
-        <SideBar />
-        <AddLink />
+        <div className = 'flex h-screen'>
+          <SideBar />
+          <AddLink />
+        </div>
       </main>
     );
 }
